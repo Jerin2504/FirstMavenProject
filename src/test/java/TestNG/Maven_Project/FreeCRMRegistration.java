@@ -68,7 +68,7 @@ public class FreeCRMRegistration {
 
 	@AfterMethod
 	public void closeApplication() {
-//		driver.close();
+		driver.close();
 	}
 
 	private void openBrowser() {
